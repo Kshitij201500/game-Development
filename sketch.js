@@ -5,7 +5,6 @@ let brick_x, brick_y, brick_width, brick_height;
 function setup() {
   createCanvas(400, 400);
   background("black");
-
   paddle_width = 100;
   paddle_x = (width / 2) - (paddle_width / 2);
   paddle_y = height - 25;
@@ -14,11 +13,11 @@ function setup() {
   brick_height=20;
   brick_width=70;
   brick_x= (width / 2) - (brick_width / 2)-60;
-  brick_y=30;
+  brick_y=50;
  
   ball_diameter = 20;
   ball_dx =1;
-  ball_dy = 2;
+  ball_dy = 1.5;
   paddle_dx = 3;
   ball_x = (width / 2) - (ball_diameter / 2);
   ball_y = (height / 2) - (ball_diameter / 2);
